@@ -1,0 +1,87 @@
+.home{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction:column ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.headerContainer{
+    width: auto;
+    margin-left: 30px;
+}
+.home .headerContainer h1{
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 70px;
+
+}
+.home .headerContainer p{
+    margin-top: 15px;
+    padding: 0;
+    font-size: 40px;
+    font-weight: lighter;
+    color: black;
+}
+.home .headerContainer button{
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 180px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(244, 15, 15);
+
+}
+.headerContainer button:hover{
+    background-color: aqua;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+/* mobile view */
+@media only screen and (max-width:600px){
+    .home{
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .headerContainer{
+        margin-left: 0;
+        border-radius: 10px;
+        /* width: 80px; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #121619;
+        color: white;
+
+    }
+     .home .headerContainer h1{
+        font-size: 30px;
+        height: 30px;
+        margin: 20px 0px;
+        color: white;
+        margin-left: 25px;
+    }
+
+    .home .headerContainer p{
+    font-size: 30px;
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    }
+    .headerContainer button{
+    background-color: white;
+    color: #121619;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    
+    }
+    
+}
+
